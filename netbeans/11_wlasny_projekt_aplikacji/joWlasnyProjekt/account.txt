@@ -1,0 +1,5 @@
+Imiê: asd
+Nazwisko: asd
+P³eæ: Mê¿czyzna
+Login: login
+Has³o: blabla
