@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class DzialanieMatematyczne{
+class JakubOstapowiczPolaFigurPlaskich{
 	public static void main(String[] arg){
 		Scanner sc = new Scanner(System.in);
 		String figura = "";
@@ -33,7 +33,6 @@ class DzialanieMatematyczne{
 		System.out.println("quit - zamkniecie programu");
 		System.out.println("");
 		System.out.print("Wybierz jedna figure: ");
-		
 	}
 	
 	public static void defaultText(){
@@ -45,11 +44,24 @@ class DzialanieMatematyczne{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Podaj dlugosc boku: ");
 		int bok = sc.nextInt();
-		for (int i=1; i<bok; i++){
-			for (int j=1; j<=i; j++)
+		for (int i=1; i<bok+1; i++){
 			System.out.print("*");
-			System.out.println();
 		}
+		for (int x=1; x<bok-1; x++){
+			System.out.println("");
+			for (int j=1; j<2; j++){
+				System.out.print("*");
+				for (int k=2; k<bok; k++){
+					System.out.print(" ");
+				}
+				System.out.print("*");
+			}
+		}
+		System.out.println("");
+		for (int i=1; i<bok+1; i++){
+			System.out.print("*");
+		}
+		
 	}
 	
 	public static void prostokat(){
@@ -59,5 +71,22 @@ class DzialanieMatematyczne{
 		int pierwszy = sc.nextInt();
 		System.out.print("Podaj dlugosc pierwszego boku: ");
 		int drugi = sc.nextInt();
+		for (int i=1; i<pierwszy+1; i++){
+			System.out.print("*");
+		}
+		for (int x=1; x<drugi-1; x++){
+			System.out.println("");
+			for (int j=1; j<2; j++){
+				System.out.print("*");
+				for (int k=2; k<pierwszy; k++){
+					System.out.print(" ");
+				}
+				System.out.print("*");
+			}
+		}
+		System.out.println("");
+		for (int i=1; i<pierwszy+1; i++){
+			System.out.print("*");
+		}
 	}
 }
