@@ -61,7 +61,9 @@ class JakubOstapowiczPolaFigurPlaskich{
 		for (int i=1; i<bok+1; i++){
 			System.out.print("*");
 		}
-		
+		System.out.println("");
+		System.out.println("Obwod: "+bok+"*4 = "+(bok * 4));
+		System.out.println("Pole: "+bok+"*"+bok+" = "+(bok * bok));
 	}
 	
 	public static void prostokat(){
@@ -88,5 +90,8 @@ class JakubOstapowiczPolaFigurPlaskich{
 		for (int i=1; i<pierwszy+1; i++){
 			System.out.print("*");
 		}
+		System.out.println("");
+		System.out.println("Obwod: "+pierwszy+"*2+"+drugi+"*2 = "+(pierwszy * 2 + drugi * 2));
+		System.out.println("Pole: "+pierwszy+"*"+drugi+" = "+(pierwszy * drugi));
 	}
 }
