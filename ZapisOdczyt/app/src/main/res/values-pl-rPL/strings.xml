@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZapisOdczyt</string>
+    <string name="save">ZAPISZ</string>
+    <string name="read">WCZYTAJ</string>
+    <string name="write_text_to_save">Wpisz wartosc do zapisu</string>
+    <string name="hint_123">podpowiedz 123</string>
+</resources>

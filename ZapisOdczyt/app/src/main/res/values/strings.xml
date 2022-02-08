@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ZapisOdczyt</string>
+    <string name="save">SAVE</string>
+    <string name="read">READ</string>
+    <string name="write_text_to_save">Write text to save</string>
+    <string name="hint_123">hint 123</string>
+</resources>
