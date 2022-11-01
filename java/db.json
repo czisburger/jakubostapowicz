@@ -1,1 +1,102 @@
-
+{
+    "routes": [
+      {
+        "id": 1,
+        "name": "",
+        "description": "",
+        "image_url": "",
+        "length": 0,
+        "best_lap": 0,
+        "best_lap_date": "0000-00-00",
+        "type": "chodzenie"
+      },
+      {
+        "id": 2,
+        "name": "",
+        "description": "",
+        "image_url": "",
+        "length": 0,
+        "best_lap": 0,
+        "best_lap_date": "0000-00-00",
+        "type": "chodzenie"
+      },
+      {
+        "id": 3,
+        "name": "",
+        "description": "",
+        "image_url": "",
+        "length": 0,
+        "best_lap": 0,
+        "best_lap_date": "0000-00-00",
+        "type": "chodzenie"
+      },
+      {
+        "id": 4,
+        "name": "",
+        "description": "",
+        "image_url": "",
+        "length": 0,
+        "best_lap": 0,
+        "best_lap_date": "0000-00-00",
+        "type": "chodzenie"
+      },
+      {
+        "id": 5,
+        "name": "",
+        "description": "",
+        "image_url": "",
+        "length": 0,
+        "best_lap": 0,
+        "best_lap_date": "0000-00-00",
+        "type": "chodzenie"
+      },
+      {
+        "id": 6,
+        "name": "",
+        "description": "",
+        "image_url": "",
+        "length": 0,
+        "best_lap": 0,
+        "best_lap_date": "0000-00-00",
+        "type": "chodzenie"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "nick": "uzytkownik",
+        "last_time": [
+          {
+            "route_id": 1,
+            "time": 0,
+            "date": "0000-00-00"
+          },
+          {
+            "route_id": 2,
+            "time": 0,
+            "date": "0000-00-00"
+          },
+          {
+            "route_id": 3,
+            "time": 0,
+            "date": "0000-00-00"
+          },
+          {
+            "route_id": 4,
+            "time": 0,
+            "date": "0000-00-00"
+          },
+          {
+            "route_id": 5,
+            "time": 0,
+            "date": "0000-00-00"
+          },
+          {
+            "route_id": 6,
+            "time": 0,
+            "date": "0000-00-00"
+          }
+        ]
+      }
+    ]
+  }
